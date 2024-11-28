@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather-Driven Energy Predictions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather-Driven Energy Predictions</h1>
+    <form id="weather-form">
+      <input type="text" id="city" placeholder="Enter City Name" required>
+      <button type="submit">submit</button>
+    </form>
+    <div id="results" class="hidden">
+      <h2>Weather in <span id="city-name"></span></h2>
+      <p>Temperature: <span id="temperature"></span> °C</p>
+      <p>Wind Speed: <span id="wind-speed"></span> m/s</p>
+      <h3>Energy Prediction</h3>
+      <p id="prediction"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
